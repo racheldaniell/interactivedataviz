@@ -14,7 +14,7 @@ This creates a clone of our class repository in your own github account. You can
 
 ### 2. Set up your Github Pages for your deployment
 
-To deploy your site on [Github Pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site) you can go to your repository's `Settings` tab and then scroll down to `GitHub Pages` section. Select `main` as source and then your site will be avallable at `https://[YOUR_USERNAME].github.io/[YOUR_REPOSITORY_NAME]/`. *NOTE*: You must navidate in the URL to a folder with an index.html, or else you will get a 404. This will take a few minutes to update with any pushed changes.
+To deploy your site on [Github Pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site) you can go to your repository's `Settings` tab and then scroll down to `GitHub Pages` section. Select `main` as source and then your site will be avallable at `https://[YOUR_USERNAME].github.io/[YOUR_REPOSITORY_NAME]/`. *NOTE*: You must navigate in the URL to a folder with an index.html, or else you will get a 404. This will take a few minutes to update with any pushed changes.
 
 <img src='../lib/assets/pages.png' width='500px'>
 
@@ -29,10 +29,10 @@ To do this, navigate to the folder where you want to save your files (I like to 
 $ cd PATH_TO_YOUR/FOLDER
 
 # clone your fork to your local computer
-$ git clone https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2021
+$ git clone https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-SP2022
 
 # `cd` (change directory) into this repository
-$ cd Interactive-Data-Vis-Fall2021
+$ cd Interactive-Data-Vis-SP2022
 ```
 
 ### 4. Set up your local repository so that it links back to the course repository.
@@ -43,8 +43,8 @@ We do this so that you can keep your local branch synced up with the main course
 #See current remote branches:
 
 $ git remote -v
-> origin	https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2021 (fetch)
-> origin	https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2021 (push)
+> origin	https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-SP2022 (fetch)
+> origin	https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-SP2022 (push)
 
 # notice currently this is only tracking your version of the repository.
 ```
