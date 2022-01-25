@@ -1,6 +1,6 @@
-# Interactive-Data-Vis-Fall2021
+# Interactive-Data-Vis-Spring2022
 
-Course material for Interactive Data Visualization (DATA 73200) taught at CUNY Spring Semester, 2021. This repository contains the starter code for each of the 7 tutorials on the `/main` branch, the code built in live coding sessions from class will be released each week on the `/class` branch, and demo code (which includes additional helpful code for the tutorial) will be released after the class on the `/demo` branch.
+Course material for Interactive Data Visualization (DATA 73200) taught at CUNY Graduate Center Spring Semester, 2022. This repository contains the starter code for each of the 7 tutorials on the `/main` branch, the code built in live coding sessions from class will be released each week on the `/class` branch, and demo code (which includes additional helpful code for the tutorial) will be released after the class on the `/demo` branch.
 
 After all [installations](./1_1_getting_started/1_INSTALL.md), [git setup](./1_1_getting_started/GIT_SETUP.md), and the [local serve](./1_1_getting_started/BASIC_SERVER.md) instructions in the first tutorial folder (`./1_1_getting_started/`), you're ready to start creating awesome visualizations 🎉!
 
