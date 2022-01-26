@@ -1,8 +1,6 @@
 # Interactive-Data-Vis-Spring2022
 
-
 Course material for Interactive Data Visualization (DATA 73200) taught at CUNY Graduate Center Spring Semester, 2022. This repository contains the starter code for each of the 7 tutorials on the `/main` branch, the code built in live coding sessions from class will be released each week on the `/class` branch, and demo code (which includes additional helpful code for the tutorial) will be released after the class on the `/demo` branch.
-
 
 After all [installations](./1_1_getting_started/1_INSTALL.md), [git setup](./1_1_getting_started/GIT_SETUP.md), and the [local server/basic server](./1_1_getting_started/3_BASIC_SERVER.md) instructions in the first tutorial folder (`./1_1_getting_started/`), you're ready to start creating awesome visualizations 🎉!
 
@@ -12,7 +10,6 @@ Code for each tutorial will be released on the week that we cover that topic. Th
 
 | Section | Tutorial | Topic | Starter Code | Demo Code | Class Code |
 | ------ | ------ | ----- | ------ | ----- | ----- |
-
 | Section 1 | Tutorial 1 | Getting Started | [/tree/main](https://github.com/racheldaniell/interactivedataviz/tree/main/1_1_getting_started) | [/tree/demo](https://github.com/racheldaniell/interactivedataviz/tree/demo/1_1_getting_started) | [/tree/class](https://github.com/racheldaniell/interactivedataviz/tree/class/1_1_getting_started)
 | Section 1 | Tutorial 2 | Basic HTML | [/tree/main](https://github.com/racheldaniell/interactivedataviz/tree/main/1_2_basic_html) | [/tree/demo](https://github.com/racheldaniell/interactivedataviz/tree/demo/1_2_basic_html) | [/tree/class](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2021/tree/class/1_2_basic_html)
 | Section 1 | Tutorial 3 | Intro to JS | [/tree/main](https://github.com/racheldaniell/interactivedataviz/tree/main/1_3_intro_to_js) | [/tree/demo](https://github.com/racheldaniell/interactivedataviz/tree/demo/1_3_intro_to_js) | [/tree/class](https://github.com/racheldaniell/interactivedataviz/tree/class/1_3_intro_to_js)
@@ -25,4 +22,3 @@ Code for each tutorial will be released on the week that we cover that topic. Th
 | Section 3 | Tutorial 3 | Timeseries | [/tree/main](https://github.com/racheldaniell/interactivedataviz/tree/main/3_3_time_series) | [/tree/demo](https://github.com/racheldaniell/interactivedataviz/tree/demo/3_3_time_series) | [/tree/class](https://github.com/racheldaniell/interactivedataviz/tree/class/3_3_time_series) |
 | Section 3 | Tutorial 4 | Geographic | [/tree/main](https://github.com/racheldaniell/interactivedataviz/tree/main/3_4_geographic) | [/tree/demo](https://github.com/racheldaniell/interactivedataviz/tree/demo/3_4_geographic) | [/tree/class](https://github.com/racheldaniell/interactivedataviz/tree/class/3_4_geographic) |
 | Section 3 | Tutorial 6 | Hierarchical | [/tree/main](https://github.com/racheldaniell/interactivedataviz/tree/main/3_5_hierarchical) | [/tree/demo](https://github.com/racheldaniell/interactivedataviz/tree/demo/3_5_hierarchical) | [/tree/class](https://github.com/racheldaniell/interactivedataviz/tree/class/3_5_hierarchical) |
-
