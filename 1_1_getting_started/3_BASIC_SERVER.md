@@ -36,7 +36,7 @@ $ npm install -g serve
 Once your installations are complete and you're ready to begin working on your tutorial assignment, use your terminal (or git bash, on PC) to navigate to the _root directory_ of your fork. Your path may look different, but the command will be something like this:
 
 ```sh
-$ cd Documents/My\ Repositories/Interactive-Data-Vis-Spring2021/
+$ cd Documents/My\ Repositories/Interactive-Data-Vis-Spring2022/
 ```
 
 From this level, (_not from the tutorial folder_), run:
