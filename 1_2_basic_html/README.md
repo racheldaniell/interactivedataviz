@@ -1,4 +1,4 @@
-# Section 1 | Tutorial 2 | Basic HTML
+# Section 1 | Tutorial 2 | Basic HTML + CSS
 
 The goals for this tutorial are:
 
