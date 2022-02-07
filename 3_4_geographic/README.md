@@ -1,4 +1,4 @@
-# Section 3 | Tutorial 4 | Geographic [ OPTIONAL FOR REFERENCE OR SELF-STUDY - NOT TO BE COVERED IN CLASS ]
+# Section 3 | Tutorial 4 | Geographic [ OPTIONAL FOR REFERENCE OR SELF-STUDY - THIS TUTORIAL WILL NOT BE COVERED IN CLASS ]
 
 The goals for this tutorial are:
 
