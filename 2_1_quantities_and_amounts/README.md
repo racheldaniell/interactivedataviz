@@ -12,7 +12,7 @@ The goals for this tutorial are:
 You should already have a local copy of your repository from the [tutorial 1](../1_1_getting_started/README.md). Start by getting a [basic server](../1_1_getting_started/3_BASIC_SERVER.md) up and running. This should include all the changes you've made thus far.
 
 Once your local serve is up and reacting to code changes, you're ready to begin working on your tutorial assignment.
-As you're building, don't forget you can always reference the [class code branch](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2021/tree/class/) or the [demo code branch](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2021/tree/demo/) for additional context.
+As you're building, don't forget you can always reference the [demo code branch](https://github.com/racheldaniell/interactivedataviz/tree/demo) for additional context.
 
 ## Assignment:
 
