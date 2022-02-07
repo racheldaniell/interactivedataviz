@@ -33,16 +33,6 @@ var output = {
 
 Add corresponding sections to the HTML template and script to add new elements.
 
-### Compare with
-- Easy-to-learn story map tools -- see Maps Mania 2016 review (http://googlemapsmania.blogspot.com/2016/06/easy-story-maps.html):
-  - Esri ArcGIS storymap http://storymaps.arcgis.com/en/ with open-source code at https://github.com/Esri/map-journal-storytelling-template-js
-  - MapMe storymap http://mapme.com/support/knowledgebase/how-do-mapme-stories-work/
-  - CartoDB Odyssey storymap http://cartodb.github.io/odyssey.js/
-  - KnightLab storymap https://storymap.knightlab.com/
-- Related Leaflet storymap template that also displays multiple GeoJSON layers http://jackdougherty.github.io/leaflet-storymap-layers/index.html
-- Related Leaflet storymap template that also displays both tile layers and GeoJSON layers
-http://jackdougherty.github.io/otl-historical-town-borders/index.html
-
 
 ## Requires open-source libraries
 - Leaflet.js
@@ -51,16 +41,7 @@ http://jackdougherty.github.io/otl-historical-town-borders/index.html
 - Font Awesome
 
 ## Credits
-- Adapted from MUX Lab, Map Effects 100: https://github.com/muxlab/map-effects-100, see http://muxlab.github.io/map-effects-100/Leaflet/11_scroll-driven-map-navigation.html
+- Adapted from original by slead.github.io from https://github.com/JackDougherty/leaflet-storymap 
+- Original adapted from MUX Lab, Map Effects 100: https://github.com/muxlab/map-effects-100, see http://muxlab.github.io/map-effects-100/Leaflet/11_scroll-driven-map-navigation.html
 - Thanks [@ilyankou](https://github.com/ilyankou) for improving image display, navigation scroll, and web interface
 - Numeric icon markers thanks to https://github.com/coryasilva/Leaflet.ExtraMarkers and StackOverflow suggestions for modification
-
-## Create your own storymap
-
-See easy-to-learn instructions in the Leaflet Templates section of *Data Visualization for All* book at http://DataVizForAll.org
-
-## Examples with Added Features
-- Explore http://pembrokesoundscapes.ca/map, view code at https://github.com/rblades/rblades.github.io. Added audio playback in the narrative, historical map layers.
-
-## Code contributions welcome
-- Submit GitHub pull requests to the dev branch
