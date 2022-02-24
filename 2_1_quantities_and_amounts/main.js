@@ -1,8 +1,8 @@
 // 1 VARIABLES
 // we define variables/globals we will use throughout
+const width = window.innerWidth * .8;
+const height = window.innerHeight * .8;
 
-const width = window.innerWidth *.08;
-const height = window.innerHeight /3;
 
 
 // 2 DATA
@@ -21,27 +21,34 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType).then(data => {
 // the data domain for numbers needs to use a max number using "d3.max"
 
 const xScale = d3.scaleBand()
-.domain(data.map(d=> d.activity))
-.range([0, width])
-
+  .domain(data.map(d => d.activity))
+  .range([0, width])
+  .paddingInner(.2)   // added after classtime end
 
 const yScale = d3.scaleLinear()
-.domain([0, d3.max(data, d=> d.count)]) 
-.range([height, 0])  
-
+    .domain([0, d3.max(data, d => d.count)])
+    .range([height, 0])
+    .nice()  // added after classtime end
 
 
 // 4 ELEMENTS APPEND
 
+const svg = d3.select("#barchart")
+  .append("svg")
+  .attr("width", width)
+  .attr("height", height)
 
 // 5 SELECT - JOIN - DRAW
-
-
 // 6 ATTRIBUTES
 
+svg.selectAll("rect")
+  .data(data)
+  .join("rect")
+  .attr("width", xScale.bandwidth())
+  .attr("height", d=> height - yScale(d.count))
+  .attr("x", d => xScale(d.activity))
+  .attr("y", d => yScale(d.count))
 
 
-// everything with our data needs to happen within the brackets!
-// these end brackets represent the end of data output area
 
-})
+});
