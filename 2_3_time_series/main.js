@@ -31,6 +31,33 @@ d3.csv('../data/populationOverTime.csv', d => {
     .attr("height", height)
 
   // BUILD AND CALL AXES
+  // axes added in 2nd class session and updated after class
+
+  const xAxis = d3.axisBottom(xScale)
+  const yAxis = d3.axisLeft(yScale)
+
+  svg.append("g")
+    .attr("transform", `translate(0,${height-margin})`)
+    .call(xAxis)
+
+  svg.append("g")
+  //.attr("transform", `translate(0,${height-margin.bottom})`)
+  .attr("transform", `translate(${margin}, ${0})`)
+      .call(yAxis)
+
+  // sample code for axes
+/*   const xAxis = d3.axisBottom(xScale)
+  const yAxis = d3.axisLeft(yScale)
+ 
+  svg.append("g")
+    .attr("transform", `translate(0,${height-margin.bottom})`)
+    .call(xAxis)
+ 
+  svg.append("g")
+    .attr("transform", `translate(${margin.left},0)`)
+    .call(yAxis)
+ */ 
+
 
   // LINE GENERATOR FUNCTION
   const lineGen = d3.line()
