@@ -38,7 +38,7 @@ Promise.all([
     // console.log('projection :>> ', projection);
 
  
-  // CREATE SVG ELEMENT
+  // CREATE SVG ELEMENT 
   // use our classic methodology to append your svg into your html <div>
   // check its creation in your browser if you like
     const svg = d3.select("#container")
@@ -109,7 +109,7 @@ Promise.all([
   svg.selectAll("circle.point")
   .data([gcPoint])
   .join("circle")
-  .attr("r", 10)
+  .attr("r", 12)
   .style("fill", "gold")
   .attr("transform", d => {
     // use our projection to map geo data to screenspace

@@ -144,7 +144,7 @@ d3.csv('../data/squirrelActivities.csv', d3.autoType).then(data => {
           .attr("text-anchor", 'middle') // set the x/y to refer to the middle of the word
           .text(d => d3.format(",")(d.count)) // set the text, add a formatter to properly format numbers: https://github.com/d3/d3-format
 
-
+ 
 })
 
 

@@ -44,7 +44,7 @@ d3.json("../data/environmentRatings.json", d3.autoType)
 /*   // EXTRAS - Legend examples
   // make array
 const partyNames = ["Republican", "Democrat", "Other"]
-
+ 
 // Add labels from array
 myLegend1.selectAll("myLabel")
   .data(partyNames)

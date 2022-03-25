@@ -5,7 +5,7 @@ const width = innerWidth * 0.7,
     margin = {top: 10, bottom: 30, left: 80, right: 10};
 
 //LOAD DATA
-
+// instead of having D3 interpret the data types with d3.autotype, we will have it return specific types through "return" function
     d3.csv('../data/populationOverTime.csv', d => {
       return {
         year: new Date(+d.Year,0,1), // year, month, day
@@ -65,8 +65,8 @@ const yAxisGroup = svg.append("g")
 .attr("stroke", "blue")
 .attr("fill","none")
 .attr("d", d => lineGen(d))
-
- */
+  
+ */  
 
 svg.selectAll("path.line")
 .data([data]) 
