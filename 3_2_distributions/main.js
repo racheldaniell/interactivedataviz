@@ -108,14 +108,14 @@ function draw() {
     console.log(filteredData)
 
   const dot = svg
-    .selectAll("circle", d => d.BioID)
-    .data(filteredData)
+    .selectAll("circle")
+    .data(filteredData, d => d.BioID)
     .join(
       // + HANDLE ENTER SELECTION
       enter => enter
       .append("circle")
-      .attr("r", radius*.5)
-      .attr("cx",0))
+      .attr("r", (radius*.5))
+      .attr("cx",0)
       .attr("cy", d => yScale(d.envScore2020))
       .attr("fill", "black")
       .call(enter => enter
@@ -123,14 +123,15 @@ function draw() {
         .duration(1000)
         .attr("r", radius)
         .attr("cx", d => xScale(d.ideologyScore2020))
-        .attr("cy", d => yScale(d.envScore2020))
-        .attr("fill", "magenta")
+        //.attr("cy", d => yScale(d.envScore2020))
+        .attr("fill", "magenta"))
       ,
 
       // + HANDLE UPDATE SELECTION
       update => update,
 
       // + HANDLE EXIT SELECTION
-      exit => exit.remove()
-    );
+      exit => exit
+      .remove()
+    )
 }
