@@ -1,3 +1,39 @@
+# Section 3 | Tutorial 4 | Geographic
+
+The goals for this tutorial are:
+
+- to think through content creation needs and design choices for storymaps
+- to understand choices in basemap/tile map service selection
+- to gain exprience creating storymaps with custom data points
+
+## Setup + Serve:
+
+You should already have a local copy of your repository from the [tutorial 1](../1_1_getting_started/README.md). Start by getting a [basic server](../1_1_getting_started/3_BASIC_SERVER.md) up and running. This should include all the changes you've made thus far.
+
+Once your local serve is up and reacting to code changes, you're ready to begin working on your tutorial assignment.
+As you're building, don't forget you can always reference the [class code branch](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2021/tree/class/) or the [demo code branch](https://github.com/InteractiveDataVis/Interactive-Data-Vis-Fall2021/tree/demo/) for additional context.
+
+## Assignment:
+
+- [ ] Create a new storymap: Using your own CSV of geographically oriented story points for a data-driven geospatial narrative, (including lat/long data for each point), create a new map-based "scrollytelling" story. Think through how the user will experience your storymap and create content, zoom levels, and transitions appropriate to the experience you want to create. Add a basemap and your points to the map. You may want to storyboard the content before creating it on your map.
+
+- [ ] Try a different basemap/tile map service source and design than used in in-class demo storymaps.
+
+- [ ] Make intentional design decisions -- colors, fonts, default zoom levels, basemap source and design, etc. to be relevant to your data.
+
+**BONUS:**
+
+- [ ] Add multimedia such as images or video to your hover/popups for several points.
+
+## Deploy + Submit
+
+Once you've completed the assignment, use the Github workflow to deploy your work to **your fork** of the course repository. Post the following as a comment to the appropriate post on the [commons site](https://data73200sp2022.commons.gc.cuny.edu/):
+1. a link to your committed code repository (your link will look something like: `https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-SP2022/[TUTORIAL_PATH]/`)
+2. a link to your deployed example (your link will look something like: `https://[YOUR_USERNAME].github.io/Interactive-Data-Vis-SP2022/[TUTORIAL_PATH]/`)
+
+
+
+
 # leaflet-storymap
 Leaflet storymap with scroll-driven navigation for narrative and point markers from easy-to-learn template, with GeoJSON data file.
 
