@@ -32,7 +32,7 @@ Once you've completed the assignment, use the Github workflow to deploy your wor
 2. a link to your deployed example (your link will look something like: `https://[YOUR_USERNAME].github.io/Interactive-Data-Vis-SP2022/[TUTORIAL_PATH]/`)
 
 
-
+# NOTES on the template code models:
 
 # leaflet-storymap
 Leaflet storymap with scroll-driven navigation for narrative and point markers from easy-to-learn template, with GeoJSON data file.
