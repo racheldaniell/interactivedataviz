@@ -27,8 +27,12 @@ AND/OR: Manually add custom points or lines or polygons to your map using Leafle
 
 **BONUS:**
 
-- [ ] Take a non-GeoJSON format geospatial data layer (shapefile, KMZ, etc.) in QGIS or from an external source and convert it to GeoJSON (either by exporting its features as GeoJSON from QGIS or through an online tool like geojson.io), then add that new GeoJSON file to your interactive map (the NYC one from class or your new map).
+- [ ] Take the us state capitals CSV data provided in the [data folder](../data/) or any other CSV format file of your choice that contains columns for lat and lon and add that to your map using Papaparse or another csv parsing tool. 
 
-- [ ] Make a custom basemap using Mapbox Studio with specific design choices (https://www.mapbox.com/mapbox-studio) and use that in your interactive map.
+- [ ] Take a non-GeoJSON/non-CSV format geospatial data layer (shapefile, KMZ, etc.) in QGIS or from an external source and convert it to GeoJSON (either by exporting its features as GeoJSON from QGIS or through an online tool like geojson.io), then add that new GeoJSON file to your interactive map (the NYC one from class or your new map).
+
+- [ ] If you use React.js in your general web development, try creating a Leaflet map using React-Leaflet https://react-leaflet.js.org. OR if you use Vue.js in your general web development, try creating a Leaflet map using Vue Leaflet https://vue2-leaflet.netlify.app/ .
+
+- [ ] Make a custom basemap using Mapbox Studio with specific design choices to modify the basemap look (https://www.mapbox.com/mapbox-studio) and use that in your interactive map.
 
 
