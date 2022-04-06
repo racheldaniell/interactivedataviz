@@ -2,9 +2,10 @@
 
 The goals for this tutorial are:
 
-- to revisit GeoJSON data, and how geographical features on our earth translate to projected shapes on an svg.
-- to reinforce [projections](https://github.com/d3/d3-geo#projections), in conjunction with [d3.geo-path](https://github.com/d3/d3-geo#geoPath), transforms latitude and longitude space into pixel space.
-- to be exposed to the concept of something updating with every mouse movement -- the early stages of what will later become a tooltip.
+- to be exposed to Leaflet and how to create a map, add a basemap, and add overlay/thematic map layers
+- to revisit GeoJSON data, and how geographical features on our earth translate to projected visual shapes in web-based map visualizations
+- to gain practice styling map data layers and adding popups
+
 
 ## Setup + Serve:
 
@@ -15,15 +16,19 @@ As you're building, don't forget you can always reference the [demo code branch]
 
 ## Exercise:
 
-- [ ] Implement your own version of the map, using the us state geojson data provided in the [data folder](../data/), or another geojson of your choice (feel free to pull in data of the world or of another country if you like).
+- [ ] Implement a new Leaflet map project, using any basemap and geogrpahic area that interests you 
 
-- [ ] Using your own lat/long dataset, add points to your map. This can be the same dataset you chose for the section 2 version of this tutorial, as long as its **not** the dataset leveraged in the section 2 **demo** ([`usHeatExtremes.csv`](../data/usHeatExtremes.csv))
+- [ ] Using the us state geojson data provided in the [data folder](../data/), or any other geojson of your choice, add a polygon or line or point data layer and style it (feel free to pull in data of the world or of another country if you like).
+AND/OR: Manually add custom points or lines or polygons to your map using Leaflet.js. 
 
-- [ ] Add mouseover behavior **to each point**, so its data updates state, and is displayed in our tooltip display.
+- [ ] Add popups to your map via markers or circles, either as custom text or based on data within your data sources.
 
-- [ ] Make intentional design decisions -- colors, sizes, axes, transitions, etc. should illustrate something interesting about or relevant to your data.
+- [ ] Make intentional design decisions -- colors, opacities, choices in which aspects to style, etc. should be relevant to your data and create a strong visual feel.
 
 **BONUS:**
 
-- [ ] Use the dropdown to change the [type of projection](https://observablehq.com/@d3/projection-transitions), and update your points accordingly.
+- [ ] Take a non-GeoJSON format geospatial data layer (shapefile, KMZ, etc.) in QGIS or from an external source and convert it to GeoJSON (either by exporting its features as GeoJSON from QGIS or through an online tool like geojson.io), then add that new GeoJSON file to your interactive map (the NYC one from class or your new map).
+
+- [ ] Make a custom basemap using Mapbox Studio with specific design choices (https://www.mapbox.com/mapbox-studio) and use that in your interactive map.
+
 

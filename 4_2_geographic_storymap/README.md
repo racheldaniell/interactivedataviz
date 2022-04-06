@@ -1,4 +1,4 @@
-# Section 3 | Tutorial 4 | Geographic
+# Section 4 | Tutorial 2 | Story Map
 
 The goals for this tutorial are:
 
@@ -15,15 +15,15 @@ As you're building, don't forget you can always reference the [class code branch
 
 ## Assignment:
 
-- [ ] Create a new storymap: Using your own CSV of geographically oriented story points for a data-driven geospatial narrative, (including lat/long data for each point), create a new map-based "scrollytelling" story. Think through how the user will experience your storymap and create content, zoom levels, and transitions appropriate to the experience you want to create. Add a basemap and your points to the map. You may want to storyboard the content before creating it on your map.
+- [ ] Create a new storymap: Make a new copy of the CSV model template containing your own geographically oriented story points for a data-driven geospatial narrative, (including lat/lon data for each point), and use it to create a new map-based "scrollytelling" story. Think through how the user will experience your storymap and create content, zoom levels, and transitions appropriate to the experience you want to create. Add a basemap and your points to the map. It is recommended that you storyboard the content as step-by-step "moments"/"places" in your data story before creating it on your map (try hand-drawing or using a software tool like InDesign or even PowerPoint/Google Slides).
 
-- [ ] Try a different basemap/tile map service source and design than used in in-class demo storymaps.
+- [ ] Try a different basemap/tile map service source and design than was used in in-class demo storymap.
 
 - [ ] Make intentional design decisions -- colors, fonts, default zoom levels, basemap source and design, etc. to be relevant to your data.
 
 **BONUS:**
 
-- [ ] Add multimedia such as images or video to your hover/popups for several points.
+- [ ] Add multimedia such as images or video to your hover/popups for several points in your data story.
 
 ## Deploy + Submit
 
@@ -32,24 +32,15 @@ Once you've completed the assignment, use the Github workflow to deploy your wor
 2. a link to your deployed example (your link will look something like: `https://[YOUR_USERNAME].github.io/Interactive-Data-Vis-SP2022/[TUTORIAL_PATH]/`)
 
 
-# NOTES on the template code models:
+--------------------------------------
+# Notes and credits related to the template code models used in this tutorial:
 
 # leaflet-storymap
 Leaflet storymap with scroll-driven navigation for narrative and point markers from easy-to-learn template, with GeoJSON data file.
 
-http://racheldaniell.github.io/leaflet-storymap-basic/index.html
-
-This is a workshop tool based on a fork of the original by slead.github.io from https://github.com/JackDougherty/leaflet-storymap and uses [Handlebars template](http://handlebarsjs.com/) to configure the individual story elements.
-
-## Original Demo
+This is a teaching and workshop tool based on a modified version of an original code model by slead.github.io see: https://github.com/JackDougherty/leaflet-storymap and uses [Handlebars template](http://handlebarsjs.com/) to configure the individual story elements. Original demo:
 http://slead.github.io/leaflet-storymap/index.html
 
-### Features
-- Scroll-driven navigation, using screen swipe, trackpad, or keyboard down-arrow. Initial map displays all point markers.
-- Viewers can pan and zoom the map independently of the narration, or click on any point to go directly to that chapter.
-- Easy-to-learn template to create your own storymap. Upload text, point coordinates, zoom levels, and image links to a CSV generic spreadsheet, and drag into http://geojson.io to create a GeoJSON data file.
-- Images can be stored in local subfolder or pulled from an external URL.
-- Works in modern browsers: Chrome, Firefox, Safari, Internet Explorer 9+.
 
 ### HTML template
 See the section labeled `handlebars template` in index.html and adjust the HTML within this [Handlebars template](http://handlebarsjs.com/) as required. 
@@ -79,5 +70,5 @@ Add corresponding sections to the HTML template and script to add new elements.
 ## Credits
 - Adapted from original by slead.github.io from https://github.com/JackDougherty/leaflet-storymap 
 - Original adapted from MUX Lab, Map Effects 100: https://github.com/muxlab/map-effects-100, see http://muxlab.github.io/map-effects-100/Leaflet/11_scroll-driven-map-navigation.html
-- Thanks [@ilyankou](https://github.com/ilyankou) for improving image display, navigation scroll, and web interface
-- Numeric icon markers thanks to https://github.com/coryasilva/Leaflet.ExtraMarkers and StackOverflow suggestions for modification
+- Original also credits [@ilyankou](https://github.com/ilyankou) for improving image display, navigation scroll, and web interface
+
